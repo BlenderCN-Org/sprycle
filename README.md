@@ -11,6 +11,11 @@ Cycle playback data can be generated with `sprycle_gen.blend`. By default, this 
 
 There is also an option to export the data as a json file, which should be more generally useful.
 
+Usage
+-----
+
+You can read the wiki [here](https://github.com/GoranM/sprycle/wiki).
+
 Install
 -------
 
