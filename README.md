@@ -4,7 +4,7 @@ Sprycle
 A sprite animation cycle utility.
 
 <p align="center">
-  <img src="https://raw.github.com/GoranM/sprycle/master/explosion.gif" alt="explosion gif"/>
+  <img src="https://raw.githubusercontent.com/wiki/GoranM/sprycle/images/explosion.gif" alt="explosion gif"/>
 </p>
 
 Cycle playback data can be generated with `sprycle_gen.blend`. By default, this data is stored (in its pickled form) as an internal text within the .blend, ready to be linked in other .blend files, and ultimately consumed by a compatible BGE playback system. The sprycle python module (`sprycle.py`) is one such system, and it is included in this project.
