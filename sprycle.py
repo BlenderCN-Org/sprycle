@@ -195,12 +195,6 @@ class TexAnim():
         self.timer.restart()
         self.show_next_frame()
 
-    #def uv_direction_x(self, d, axis=1):
-    #    self.gobj.localScale[axis] = abs(self.gobj.localScale[axis]) * d
-
-    #def uv_direction_y(self, d):
-    #    self.uv_direction_x(d, 1)
-
     @property
     def fps(self):
         return self._fps
@@ -223,7 +217,7 @@ def frame_dimensions(frame):
 def get_texanim(gobj):
     if not "sprycle_ta" in gobj:
 
-        if not "animation" in gobj:
+        if not "cycle" in gobj:
             xstep = gobj["xstep"] if "xstep" in gobj and gobj["xstep"] > 0 else 1
             total_frames = gobj["total_frames"] if "total_frames" in gobj and gobj["total_frames"] > 0 else 1
 
@@ -264,8 +258,8 @@ def animate(cont):
     gobj = cont.owner
     ta = get_texanim(gobj)
 
-    if "animation" in gobj:
-        ta.cycle(gobj["animation"])
+    if "cycle" in gobj:
+        ta.cycle(gobj["cycle"])
 
     if "fps" in gobj:
         ta.fps = gobj["fps"]
