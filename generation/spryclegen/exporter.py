@@ -40,7 +40,7 @@ class ExportSprycle(Operator, ExportHelper):
             text = bpy.data.texts.new(text_name)
         if not len(display.game.controllers):
             bpy.ops.logic.controller_add(type="PYTHON", object=display.name)
-            display.game.controllers[0].text = text
+        display.game.controllers[0].text = text
         text.clear()
         text.write(str(pickle.dumps(spry)))
 
