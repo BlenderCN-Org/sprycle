@@ -12,8 +12,8 @@ bl_info = {
     "blender": (2, 7, 1),
     "location": "File > Import-Export",
     "description": "Export sprite animation data to sprycle (.spry) file.",
-    "wiki_url": "pass",
-    "tracker_url": "pass",
+    "wiki_url": "https://github.com/GoranM/sprycle/wiki",
+    "tracker_url": "https://github.com/GoranM/sprycle/issues",
     "support": 'COMMUNITY',
     "category": "Import-Export"
 }
