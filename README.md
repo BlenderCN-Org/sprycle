@@ -14,7 +14,9 @@ The sprycle python module (`sprycle.py`) is one such system, and it is included 
 Usage
 -----
 
-You can read the wiki [here](https://github.com/GoranM/sprycle/wiki).
+Read [the wiki](https://github.com/GoranM/sprycle/wiki).
+
+Watch the [video tutorial](https://www.youtube.com/watch?v=LuWnDRlysV8).
 
 Install
 -------
